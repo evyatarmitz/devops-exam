@@ -1,0 +1,12 @@
+jenkins:
+  systemMessage: "Welcome to Jenkins!"
+  securityRealm:
+    local:
+      allowsSignup: false
+      users:
+        - id: johndoe
+          password: password
+  authorizationStrategy:
+    globalMatrix:
+      permissions:
+        - "Overall/Administer:jenkins"
