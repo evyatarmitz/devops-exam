@@ -4,9 +4,5 @@ jenkins:
     local:
       allowsSignup: false
       users:
-        - id: johndoe
-          password: password
-  authorizationStrategy:
-    globalMatrix:
-      permissions:
-        - "Overall/Administer:jenkins"
+        - id: evyatar
+          password: mitz
